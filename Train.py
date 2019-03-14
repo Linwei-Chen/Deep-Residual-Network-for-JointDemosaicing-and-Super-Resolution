@@ -185,7 +185,7 @@ def train(sub_epoch):
         if len(loss_list) > 0 and loss.item() > sum(loss_list[max(0, len(loss_list) - 100):]) / 100:
             for i in range(BATCH_SIZE):
                 hard_cases_list.append([path[0][i], path[1][i]])
-            print('==> Add to hard_cases_list', hard_cases_list[-8:])
+            # print('==> Add to hard_cases_list', hard_cases_list[-8:])
             print('hard_cases_list size: ', len(hard_cases_list))
 
         print("===> Sub_epoch[{}]({}/{}): Loss: {:.12f}".format(sub_epoch, iteration, len(train_dataset), loss.item()))

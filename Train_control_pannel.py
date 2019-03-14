@@ -143,7 +143,7 @@ print('loss_list', loss_list[-3:])
 print('result_list', result_list[-3:])
 print('best_result', best_result)
 # print('hard_cases_list', hard_cases_list)
-# show_graph(show_len=350)
+show_graph(show_len=350)
 # for i in range(42):
 #     create_model_imgs(test_list=txt_to_path_list(TEST_DATA_PATH)[i * 50:(i + 1) * 50], model_path=BEST_MODEL_SAVE_PATH)
 # create_model_imgs(test_list=txt_to_path_list(TEST_DATA_PATH)[:50], model_path=MODEL_SAVE_PATH)
