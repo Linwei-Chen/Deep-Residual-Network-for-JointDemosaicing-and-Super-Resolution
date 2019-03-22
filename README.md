@@ -1,6 +1,6 @@
 # Deep-Residual-Network-for-JointDemosaicing-and-Super-Resolution
 
-check https://zhuanlan.zhihu.com/p/56493507 to see detail 
+check https://zhuanlan.zhihu.com/p/56493507 to see the details 
 
 左为原始图片，右为神经网络模型生成的图片：
 
