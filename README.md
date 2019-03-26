@@ -2,7 +2,9 @@
 
 check https://zhuanlan.zhihu.com/p/56493507 to see the details 
 
-左为原始图片，右为神经网络模型生成的图片：
+check https://pan.baidu.com/s/1QtwMmSbTNTfosQ3eEDW2Pg to get the trained model weights
+
+left is ground truth image, right is output of model
 
 ![](https://pic1.zhimg.com/80/v2-cd16f0f6baf9d3055b04ca42515c3538_hd.jpg)
 
